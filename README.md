@@ -73,4 +73,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 This is a project I am doing by following the instruction from Udemy course 'The Complete 2023 Web Development Bootcamp' to practice and to get better at coding using React Framework.
 
-### Thank You 🤗
+### Thank You 🤗 

@@ -36,6 +36,8 @@ footer {
 footer p {
   color: #ccc;
 }
+
+/*                                                  NOTES CARD                                                                    */
 .note {
   background: #fff;
   border-radius: 7px;
@@ -54,4 +56,44 @@ footer p {
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+.note button{
+  justify-content: right;
+  color: #f5ba13;
+  border: none;
+}
+
+/*                                                Inputs                                                                           */
+.addNotes{
+  display: block;
+  background: #fff;
+  width: auto;
+  height: fit-content;
+  justify-content: center;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  margin: 2%;
+}
+/* .addNotes Input{
+  display: flex;
+  justify-content: center;
+  margin: 0% 0% 1% 40%;
+  border: none;
+  height: 100px;
+  text-align: justify;
+} */
+.addNotes input{
+  margin: 1% 0 0 40%;
+}
+.addNotes button{
+  color: #f5ba13;
+  border: none;
+  justify-content: center;
+  height: 100px;
+  margin: 0 0 0 50%;
+  align-items: center;
+}
+.addNotes textarea{
+  margin: 1% 0 0 40%;
 }

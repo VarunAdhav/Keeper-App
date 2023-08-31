@@ -15,7 +15,7 @@ const notes = [
       key: 3,
       title: "Arrays",
       content:
-        "Q. Why did the programmer quit his job? A. Because he didn't get arrays."
+        "Q. Why did the programmer quit his job? A. Because he didn't get arrays." 
     },
     {
       key: 4,
