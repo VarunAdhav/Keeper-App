@@ -1,4 +1,5 @@
 import { useState } from "react";
+import DeleteIcon from '@mui/icons-material/Delete';
 //This is like a card element where the notes are being projected and We can delete any notes using this component
 function Notes(props){
     const [buttonColor , setButtonStlye] = useState(false);
@@ -23,7 +24,7 @@ function Notes(props){
             <button style={{color: buttonColor ? "black" : "#f5ba13"}} 
             onMouseOver={setColor} onMouseLeave={defaultColor} onClick={()=>{
                 props.delete(props.id)
-            }} >Delete</button>
+            }} ><DeleteIcon /></button>
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import AddIcon from '@mui/icons-material/Add';
 //the aim of this component is to add a new Note
 function AddNote(props){
     const [note , setNote] = useState({});
@@ -28,7 +29,7 @@ function AddNote(props){
                 props.onAddNote(note);
                 title.current = "";
                 content.current = "";
-            }} className="btn">Add</button>
+            }} className="btn"><AddIcon/></button>
         </div>
     );
 }

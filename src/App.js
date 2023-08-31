@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Notes from './components/Notes';
-import note from './assets/defaultNotes';
 import AddInput from './components/AddNote';
 import { useState } from 'react';
 
